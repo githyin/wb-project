@@ -1,9 +1,10 @@
-import Navigation from "../Components/nav-bar";
+import ChatForm from "../Components/ChatForm";
 
 function Professor() {
   return (
     <div>
       <span>Professor</span>
+      <ChatForm />
     </div>
   );
 }
